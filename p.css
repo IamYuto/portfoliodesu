@@ -1,0 +1,60 @@
+.header{
+  padding:170px 30px 80px;
+}
+.header p{
+  border-bottom: solid;display:inline-block
+}
+.header h1{
+  font-size:60px;
+}
+
+body{
+background:url("file:///C:/img/as.jpg")no-repeat fixed left bottom;
+  background-size:cover;
+  color:#fff;
+  text-align: center;
+  font-size:1.4rem;
+
+}
+.about{
+  padding:80px 30px;
+  background-color:#fff;
+  color:#333;
+  
+}
+.heading{
+  position:relative;
+  display:inline-block;padding-bottom: 15px;
+margin:30px 0 15px;
+  letter-spacing:2px;
+  font-size:4rem;
+}
+.heading::before,
+.heading::after{
+content:'';
+  position:absolute;
+  right:0;
+  bottom:0;
+  left:0;
+  border-bottom:double
+}
+.haeding::before{
+  bottom:5px;
+}
+
+.about-text{
+  margin:30px 0;
+  line-height: 2.5;
+}
+.Works{
+  background-color:darkturquoise;padding:80px 0;
+}
+.p-text{
+    margin:30px 0;
+  line-height: 2.5;
+}
+.contact{
+color:black;
+  background-color: beige;
+  padding-bottom: 150px;
+}
